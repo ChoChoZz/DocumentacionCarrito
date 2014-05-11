@@ -1,0 +1,86 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage[papersize={17cm,23cm},total={11.5cm,17cm},left=66pt,top=2cm,offset={2cm,2.5cm}]{geometry}
+\usepackage[letter,center]{crop}
+\setcounter{secnumdepth}{6}
+\setcounter{tocdepth}{6}
+\newcommand\UCactor{\includegraphics[height=11pt]{images/uc/actor}}
+\newcommand\UCsist{\includegraphics[height=11pt]{images/uc/usecase}}
+\usepackage{anysize}
+\marginsize{2cm}{2cm}{1cm}{3cm}
+\usepackage[explicit]{titlesec}
+
+\begin{document}
+\begin{titlepage}
+\pagestyle{empty}
+\begin{picture}(18,4)
+\put(0,-50){\includegraphics[width=2cm,height=2cm]{images/ipn.jpg}}
+\put(390,-50){\includegraphics[width=2cm,height=2cm]{images/logo.png}}
+\end{picture}
+\begin{center}
+\vspace*{-1in}
+\vspace*{3cm}
+\huge{Instituto Polit\'ecnico Nacional}\\
+\vspace*{0.15in}
+\huge{Escuela Superior de C\'omputo}\\
+\vspace*{0.6in}
+\begin{large}
+%\vspace*{0.3in}
+\rule{80mm}{0.1mm}\\
+
+\vspace*{0.1in}
+\end{large}
+\vspace*{0.2in}
+\begin{large}
+\vspace{1cm}
+\textsc{Carrito de compras}\\
+\textit{\\}
+\textit{\\}
+\textit{Web Application Development\\}
+\textit{\\}
+\textit{\\}
+\textit{Profesor:\\}
+\textit{Jose Jaime L\'opez Rabad\'an\\}
+\textit{\\}
+\textit{\\}
+\textit{Documentaci\'on Carrito de compras}\\
+\textit{\\}
+\textit{\\}
+\textit{Integrantes:\\}
+\textit{Giovanni Natanael Honesto\\}
+\textit{Gerar Rodr\'iguez Molina\\}
+\textit{Espartano Hern\'andez\\}
+\vspace{2cm}
+M\'exico D. F.\\
+\today
+\end{large}
+\textit{\\}
+\vspace*{0.3in}
+\vspace*{0.3in}
+\rule{80mm}{0.1mm}
+\vspace*{0.1in}
+\end{center}
+\end{titlepage}
+
+%\newpage
+%**********************************************************************************************************FinPortada
+\tableofcontents
+\include{introduccion}
+\include{problematica}
+\include{procesos}
+\include{ddr}
+\include{casosdeuso}
+\include{mensajes}
+\include{perfiles}
+\include{modeloconceptual}
+\include{glosario}
+
+\end{document}
