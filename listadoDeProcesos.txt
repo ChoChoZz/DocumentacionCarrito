@@ -7,7 +7,7 @@ Listado de procesos:
 - Autenticar. :(
 
 ----------------------------------------------
-		Estado
+	Estado de la tarea
 Aprovado :D
 Terminado :)
 Inconcluso :|
