@@ -1,0 +1,16 @@
+Listado de procesos:
+- Comprar. :(
+- Dar de alta entidad. :(
+- Eliminar entidad. :(
+- Dar de alta productos. :(
+- Registrar. :(
+- Autenticar. :(
+
+----------------------------------------------
+		Estado
+Aprovado :D
+Terminado :)
+Inconcluso :|
+No empezado :(
+
+----------------------------------------------
